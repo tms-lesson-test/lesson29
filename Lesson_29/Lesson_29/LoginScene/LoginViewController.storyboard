@@ -30,6 +30,9 @@
                                         <buttonConfiguration key="configuration" style="plain" title="Log in">
                                             <fontDescription key="titleFontDescription" type="boldSystem" pointSize="30"/>
                                         </buttonConfiguration>
+                                        <connections>
+                                            <action selector="loginButtonAction:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="8Jb-fj-vqs"/>
+                                        </connections>
                                     </button>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="9LN-aZ-iNi">
                                         <rect key="frame" x="0.0" y="54" width="374" height="34"/>
